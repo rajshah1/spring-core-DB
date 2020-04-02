@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/RAJ SHAH/Downloads/spring-aop-5.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAJ SHAH/Downloads/spring-expression-5.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAJ SHAH/Downloads/spring-jcl-5.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAJ SHAH/Downloads/spring-beans-5.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAJ SHAH/Downloads/spring-context-5.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAJ SHAH/Downloads/spring-core-5.0.5.RELEASE (1).jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAJ SHAH/Downloads/spring-aspects-5.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAJ SHAH/Downloads/aspectjweaver-1.6.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/RAJ SHAH/Downloads/aspectjrt-1.6.9.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
