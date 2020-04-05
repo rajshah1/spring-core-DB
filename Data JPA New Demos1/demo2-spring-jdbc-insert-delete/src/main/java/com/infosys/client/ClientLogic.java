@@ -18,8 +18,8 @@ public class ClientLogic {
 
 		// Invoking Service layer method to insert Employee details into
 		// Employee table
-		//employeeService.insertEmployee(employee1);
-		//employeeService.insertEmployee(employee2);
+		employeeService.insertEmployee(employee1);
+		employeeService.insertEmployee(employee2);
 
 		System.out.println("Records are successfully added..");
 
