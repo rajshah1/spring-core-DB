@@ -46,7 +46,7 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 		});
 	}
 	public Employee get(int empId) {
-		String sql = "select `Department ` from employee where EmpId  =?";
+		String sql = "select * from employee where EmpId  =?";
 		return jdbctemplate.queryForObject(sql, new Object[]{empId}, new RowMapper<Employee>() {
 			public Employee mapRow(ResultSet rs, int rowNum)throws SQLException {
 			Employee emp = new Employee();

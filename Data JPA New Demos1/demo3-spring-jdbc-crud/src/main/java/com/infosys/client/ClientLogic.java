@@ -36,29 +36,29 @@ public class ClientLogic {
 				+ employeeService.getNumberOfEmployees());
 
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the empid to be deleted ");
-		int empId = sc.nextInt();
-		int x = employeeService.deleteEmployee(empId);
-
-		if (x > 0) {
-			System.out.println(" Record Deleted ");
-		} else {
-			System.out.println(" Number of records found for the given empid are: ");
-		}
-
-		System.out.println("Enter the empid to be updated ");
-		int empId1 = sc.nextInt();
-
-		System.out.println("Enter the new department  ");
-		String department = sc.next();
-		int x1 = employeeService.updateEmployee(empId1, department);
-		if (x1 > 0) {
-			System.out.println(" Record Updated ");
-		} else {
-			System.out.println(" No records found for the empid given ");
-		}
+//		System.out.println("Enter the empid to be deleted ");
+//		int empId = sc.nextInt();
+//		int x = employeeService.deleteEmployee(empId);
+//
+//		if (x > 0) {
+//			System.out.println(" Record Deleted ");
+//		} else {
+//			System.out.println(" Number of records found for the given empid are: ");
+//		}
+//
+//		System.out.println("Enter the empid to be updated ");
+//		int empId1 = sc.nextInt();
+//
+//		System.out.println("Enter the new department  ");
+//		String department = sc.next();
+//		int x1 = employeeService.updateEmployee(empId1, department);
+//		if (x1 > 0) {
+//			System.out.println(" Record Updated ");
+//		} else {
+//			System.out.println(" No records found for the empid given ");
+//		}
 		System.out.println("Enter the empid to be fetched ");
-		empId = sc.nextInt();
+		int empId = sc.nextInt();
 		System.out.println(employeeService.get(empId));
 	   sc.close();
 	   ctx.close();	
