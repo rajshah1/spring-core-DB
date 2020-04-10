@@ -1,0 +1,60 @@
+A Book publishing company wants to automate the process of managing book details and its author details.
+
+The Book Management System has to support the following tasks:
+
+Insert new book and its author details
+
+Search books based on
+
+                  - author-name
+
+                  - book title
+
+                  - book title and author-name
+
+View all books in ascending order based on book price
+
+Remove book based on book Id
+
+Update book price based on book Id
+
+Note: Every search operation has to display complete book information except the book id on the console.
+
+Create an application to perform the specified database operations using NamedParameterJdbcTemplate of Spring and also implement the required exception handling using Spring Data Access Exception.
+
+Entity classes description:
+
+Book.java: Represents book details
+
+public class Book {
+	private int bookId;
+	private String bookName;
+	private Author author;
+        private String publication;
+	private double bookPrice;
+        //Define constructors	
+	//Define getter and setter methods
+}
+
+Author.java: Represents Author details
+
+public class Author {
+	private String firstName;
+	private String lastName;
+	private String emailId;
+	private String contactNumber;
+	// Define constructors
+	// Define getter and setter methods
+}
+Tables Description
+
+Create the following tables in the chosen database with sample data.
+
+Table name: Book
+
+
+Run the application and observe the output.
+
+Verify database table content after each operation.
+
+Author: Raj shah .
